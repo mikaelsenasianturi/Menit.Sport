@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 26px;
+  background-color: #333;
+  color: #fff;
+  height: 25px;
+}
+
+.navbar-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.navbar-links {
+  list-style: none;
+  margin: 10;
+  padding: 10 10;
+  display: flex;
+  background-color: #333;
+
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 0px;
+  transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+  /* Card Container */
+.card {
+  width: 300px;
+  margin :0px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image */
+.card-image {
+  width: 100%;
+  height: auto;
+  margin: 30 30;
+}
+
+/* Card Content */
+.card-content {
+  padding: 15px;
+  display: flex;
+}
+
+.card-title {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card-description {
+  margin: 0 0 15px;
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+.navbar-u{
+  background-color: #9e2b2b;
+}
+
+.navbar-kedua{
+  list-style: none;
+  margin: 10;
+  padding: 10px 26px;
+  display: flex;
+  margin: 0 10px;
+  height: 25px;
+}
+
+.navbar-kedua a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.navbar-kedua a:hover {
+  border-radius: 4px;
+  background-color: #575757
+}
