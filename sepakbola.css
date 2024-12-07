@@ -1,0 +1,248 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #080d5c;
+    color: #fff;
+    padding: 10px 26px;
+}
+
+header .top-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+/* Banner Container */
+body, html {
+    height: 100%;
+    object-fit: fill;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/liga\ chamoion.jpg");
+  font-size: 1.2em;
+  margin-left: 0px;
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: start;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Latest News */
+.latest-news {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.latest-news img{
+    object-fit: fill;
+}
+.latest-news h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #080d5c;
+    padding: 5px 5px;
+}
+
+.latest-news .news-list article {
+    background:#080d5c;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;   
+}
+.berita {
+    padding: 2em;
+}
+.latest-news .news-list article h3 {
+    margin: 0 0 0.5em;
+    font-size: 1.2em;
+}
+
+.latest-news .news-list article p {
+    margin: 0;
+    color: white
+}
+
+/* Multimedia Section */
+.multimedia {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.multimedia h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.media-gallery {
+    display: flex;
+    gap: 1em;
+}
+
+.media-gallery .photo,
+.media-gallery .video {
+    flex: 1;
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.media-gallery img,
+.media-gallery video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card {
+    width: 200px;
+    margin :0px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: auto;
+    margin: 30 30;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .card-title {
+    margin: 0 0 15px;
+    font-size: 1.4em;
+    color: #333;
+    line-height: 1.0;
+    padding: 0 5px 0;
+  }
+  
+  .card-description {
+    margin: 0 0 15px;
+    font-size: 1.0em;
+    color: #666;
+    line-height: 1.0;
+    padding: 0 5px 0;
+  }
+  
+  .card-button {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer .footer-links ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
